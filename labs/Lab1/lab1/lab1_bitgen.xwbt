@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\school\ec551\Lab1\lab1\lab1.ncd
+OUTFILE=C:\school\ec551\Lab1\lab1\lab1.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\school\ec551\Lab1\lab1
+LICENSE=ISE
+USER_INFO=174135685_174135686_210617260_121

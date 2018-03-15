@@ -1,0 +1,558 @@
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim lab1.ngd lab1_translate.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "E:/School/EC551/Lab1/lab1/lab1.xst" -ofn "E:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "E:/School/EC551/Lab1/lab1/lab1.xst" -ofn "E:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+xst -intstyle ise -ifn "E:/School/EC551/Lab1/lab1/lab1.xst" -ofn "E:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "E:/School/EC551/Lab1/lab1/lab1.xst" -ofn "E:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "E:/School/EC551/Lab1/lab1/lab1.xst" -ofn "E:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "E:/School/EC551/Lab1/lab1/lab1.xst" -ofn "E:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "E:/School/EC551/Lab1/lab1/lab1.xst" -ofn "E:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "E:/School/EC551/Lab1/lab1/lab1.xst" -ofn "E:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+netgen -intstyle ise -s 3  -pcf lab1.pcf -sdf_anno true -sdf_path "netgen/map" -insert_glbl true -w -dir netgen/map -ofmt verilog -sim lab1_map.ncd lab1_map.v 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+xst -intstyle ise -ifn "C:/School/EC551/Lab1/lab1/lab1.xst" -ofn "C:/School/EC551/Lab1/lab1/lab1.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim lab1.ngc lab1_synthesis.v 
+xst -intstyle ise -ifn "C:/school/ec551/Lab1/lab1/lab1.xst" -ofn "C:/school/ec551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim lab1.ngd lab1_translate.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 
+xst -intstyle ise -ifn "C:/school/ec551/Lab1/lab1/lab1.xst" -ofn "C:/school/ec551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+xst -intstyle ise -ifn "C:/school/ec551/Lab1/lab1/lab1.xst" -ofn "C:/school/ec551/Lab1/lab1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 lab1.ngc lab1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab1_map.ncd lab1.ngd lab1.pcf 
+par -w -intstyle ise -ol high -mt off lab1_map.ncd lab1.ncd lab1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab1.twx lab1.ncd -o lab1.twr lab1.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f lab1.ut lab1.ncd 

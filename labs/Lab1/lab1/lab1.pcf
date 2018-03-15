@@ -1,0 +1,63 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Mon Mar 12 17:56:13 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "sw<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "sw<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "sw<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "sw<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "btn_sel" LOCATE = SITE "B8" LEVEL 1;
+COMP "btn_right" LOCATE = SITE "D9" LEVEL 1;
+COMP "hsync" LOCATE = SITE "N6" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P7" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "clk_in" LOCATE = SITE "V10" LEVEL 1;
+COMP "rgb<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "rgb<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "rgb<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "rgb<3>" LOCATE = SITE "P8" LEVEL 1;
+COMP "rgb<4>" LOCATE = SITE "T6" LEVEL 1;
+COMP "rgb<5>" LOCATE = SITE "V6" LEVEL 1;
+COMP "rgb<6>" LOCATE = SITE "R7" LEVEL 1;
+COMP "rgb<7>" LOCATE = SITE "T7" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "btn_left" LOCATE = SITE "C4" LEVEL 1;
+COMP "btn_down" LOCATE = SITE "C9" LEVEL 1;
+COMP "btn_up" LOCATE = SITE "A8" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "clk" BEL "clk_count_0" BEL "clk_count_1" BEL
+        "clk_count_2" BEL "clk_count_3" BEL "clk_count_4" BEL "clk_count_5"
+        BEL "clk_count_6" BEL "clk_count_7" BEL "clk_count_8" BEL
+        "clk_count_9" BEL "clk_count_10" BEL "clk_count_11" BEL "clk_count_12"
+        BEL "clk_count_13" BEL "clk_count_14" BEL "clk_count_15" BEL
+        "clk_count_16" BEL "clk_count_17" BEL "clk_count_18" BEL
+        "clk_count_19" BEL "clk_count_20" BEL "clk_count_21" BEL
+        "clk_count_22" BEL "clk_count_23" BEL "clk_count_24" BEL
+        "clk_count_25" BEL "clk_count_26" BEL "clk_count_27" BEL
+        "clk_count_28" BEL "clk_count_29" BEL "clk_count_30" BEL
+        "clk_count_31" BEL "clk_in_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
