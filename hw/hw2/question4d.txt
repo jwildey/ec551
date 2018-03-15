@@ -1,0 +1,40 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: J. Wildey
+// Module Name: Question 4 d
+// Description: Structural verilog
+//////////////////////////////////////////////////////////////////////////////////
+module question4d(
+    input  wire [3:0] in,
+    output wire [2:0] out
+    );
+	 parameter WIDTH = 4;
+	 
+	 reg [2:0] count = 3'd0;
+	 
+	 real idx;
+	 
+	 assign out = count;
+	 
+	 always @ * begin
+		for( idx = 0; idx<WIDTH; idx = idx + 1) begin
+			count = count + in[idx];
+		end
+		
+	 end
+
+endmodule
+
+/*
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ise/school/ec551/hw/hw2/question4d.v" into library work
+Parsing module <question4d>.
+ERROR:HDLCompiler:480 - "/home/ise/school/ec551/hw/hw2/question4d.v" Line 21: Illegal context for real expression
+ERROR:HDLCompiler:598 - "/home/ise/school/ec551/hw/hw2/question4d.v" Line 7: Module <question4d> ignored due to previous errors.
+Verilog file /home/ise/school/ec551/hw/hw2/question4d.v ignored due to errors
+--> 
+
+Cannot synthesize 'real' numbers
+*/

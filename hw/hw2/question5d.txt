@@ -1,0 +1,36 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: J. Wildey
+// Module Name: Question 5 d
+// Description: Behavioral verilog
+//////////////////////////////////////////////////////////////////////////////////
+module question5d(
+	input  wire      clk,
+	input  wire      rst,
+    output wire [3:0] count
+   );
+
+	always @ (posedge clk) begin
+		if (rst) count <= 4'b0;
+		else count <= count + 1'b1;
+	end
+
+endmodule
+
+/*
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ise/school/ec551/hw/hw2/question5d.v" into library work
+Parsing module <question5d>.
+ERROR:HDLCompiler:1660 - "/home/ise/school/ec551/hw/hw2/question5d.v" Line 14: Procedural assignment to a non-register count is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "/home/ise/school/ec551/hw/hw2/question5d.v" Line 14: Procedural assignment to a non-register count is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "/home/ise/school/ec551/hw/hw2/question5d.v" Line 15: Procedural assignment to a non-register count is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "/home/ise/school/ec551/hw/hw2/question5d.v" Line 15: Procedural assignment to a non-register count is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:598 - "/home/ise/school/ec551/hw/hw2/question5d.v" Line 7: Module <question5d> ignored due to previous errors.
+Verilog file /home/ise/school/ec551/hw/hw2/question5d.v ignored due to errors
+--> 
+
+Since this is sequential (edge-based) logic, the output needs to be assigned to a register (or flip-flop)
+
+*/
