@@ -1,5 +1,0 @@
-verilog work "seg_display.v"
-verilog work "regfile.v"
-verilog work "memfile.v"
-verilog work "debouncer.v"
-verilog work "lab1.v"

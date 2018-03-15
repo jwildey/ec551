@@ -1,3 +1,0 @@
-verilog isim_temp "debouncer.v"
-verilog isim_temp "debouncer_test.v"
-verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"
