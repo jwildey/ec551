@@ -30,4 +30,10 @@
 
 **/*.sdbx
 
-*.xmsgs
+**/*.xmsgs
+
+**/iseconfig/*
+
+**/xst/*
+
+**/ipcore_dir/*

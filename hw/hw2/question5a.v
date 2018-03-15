@@ -39,7 +39,7 @@ module question5a(
 		
 	// count[1]
 	dFlipFlop c1 (
-		.clk(clk),
+		.clk(countbar[0]),
 		.rst(rst),
 		.d(countbar[1]),
 		.q(count[1]),
@@ -48,7 +48,7 @@ module question5a(
 		
 	// count[2]
 	dFlipFlop c2 (
-		.clk(clk),
+		.clk(countbar[1]),
 		.rst(rst),
 		.d(countbar[2]),
 		.q(count[2]),
@@ -57,7 +57,7 @@ module question5a(
 		
 	// count[3]
 	dFlipFlop c3 (
-		.clk(clk),
+		.clk(countbar[2]),
 		.rst(rst),
 		.d(countbar[3]),
 		.q(count[3]),
