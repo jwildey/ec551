@@ -59,6 +59,52 @@ module TopLevel(
 		.vcounter(vcounter), 
 		.blank(blank)
 	);
+	
+	assign hsync = HS;
+	assign vsync = VS;
+	
+	// Font ROM
+	reg [2:0] col = 3'd0;
+	reg [3:0] row = 4'd0;
+	reg [7:0] ascii = 8'h41;
+	wire ascii_pixel;
+	
+	pc_vga_8x16 font_rom (
+		.clk(clk),
+		.col(col),
+		.row(row),
+		.ascii(ascii),
+		.pixel(ascii_pixel)
+	);
+	
+	always @ (posedge clk) begin
+		col = hcounter[2:0];
+		row = vcounter[3:0];
+	end
 
+	
+	// Draw a border around the screen
+	wire pixel_on = ascii_pixel;//(hcounter[9:3]==0) || (hcounter[9:3]==79) || (vcounter[8:3]==0) || (vcounter[8:3]==59);
+	
+	assign rgb = pixel_on ? 8'hff : 8'h00;
+
+
+	// Coordinate the LEDs with the switches
+	reg [7:0] sw_read;
+	assign led = sw_read;
+	
+	always @ (posedge clk) begin
+		sw_read = sw;
+	end
+	
+	// 7 Segment Display Variables
+	reg [15:0] seg_disp = 16'b0;
+
+	seg_display reg_display (
+		.clk(clk),
+		.value(seg_disp),
+		.seg(seg),
+		.an(an)
+	);
 
 endmodule

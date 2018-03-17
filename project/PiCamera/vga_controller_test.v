@@ -54,7 +54,7 @@ module vga_controller_test;
 
 	end
 	
-	// Simulate 25 MHz Clock in signal
+	// Simulate 25 MHz Clock
 	always begin
 		#20 pixel_clk = !pixel_clk;
 	end
