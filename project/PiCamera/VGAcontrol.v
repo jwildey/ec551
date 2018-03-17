@@ -37,7 +37,7 @@ module vga_controller_640_60 (pixel_clk,HS,VS,hcounter,vcounter,blank);
 
 	wire video_enable;
 	reg HS,VS,blank;
-	reg [10:0] hcounter,vcounter;
+	reg [10:0] hcounter = 0,vcounter = 0;
 
 	always@(posedge pixel_clk)begin
 		blank <= ~video_enable; 

@@ -5,7 +5,7 @@
 // 
 // Create Date:    11:26:20 03/17/2018 
 // Module Name:    TopLevel 
-// Project Name: PiCamera
+// Project Name:   PiCamera
 // Target Devices: Nexys3 Spartan 6
 // Revision 0.01 - File Created
 // Description: 
@@ -31,18 +31,34 @@ module TopLevel(
    );
 
 	// Pixel Clock Variables for VGA control
-	reg [2:0] pixel_clk_count = 3'd0;
+	reg pixel_clk_count = 1'd0;
 	reg pixel_clk = 1'b0;
 	
-	// Divide the Clock to 25 MHz
+	// Divide the Clock to 25 MHz for Pixel Clock
 	always @ (posedge(clk_in)) begin
-		if (pixel_clk_count == 3'd4) begin
+		if (pixel_clk_count) begin
 			pixel_clk_count <= 0;
 			pixel_clk <= ~pixel_clk;
 		end else begin
 			pixel_clk_count <= pixel_clk_count + 1;
 		end
 	end
+	
+	// VGA Controller
+	wire HS;
+	wire VS;
+	wire [10:0] hcounter;
+	wire [10:0] vcounter;
+	wire blank;
+	
+	vga_controller_640_60 vga_controller (
+		.pixel_clk(pixel_clk), 
+		.HS(HS), 
+		.VS(VS), 
+		.hcounter(hcounter), 
+		.vcounter(vcounter), 
+		.blank(blank)
+	);
 
 
 endmodule
