@@ -20,15 +20,23 @@ module main(
 	output wire [3:0] an               // Anodes for the 4 different 7 Segments
    );
 	
+	// Keyboard Variables
+	wire [7:0] key;
+	
+	keyboard_controller keyboard (
+		.clk(PS2KeyboardClk),
+		.data(PS2KeyboardData),
+		.key(key)
+	);
+	
 	// 7 Segment Display Variables
 	reg [15:0] seg_disp = 16'd0;
 	
 	seg_display sev_seg_display (
 		.clk(clk_in),
-		.value(seg_disp),
+		.value({8'd0, key}),  // display key from keyboard (key only 8 bits, so pad with 0s)
 		.seg(seg),
 		.an(an)
 	);
-
 
 endmodule
