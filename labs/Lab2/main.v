@@ -11,11 +11,11 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module main(
-	input  wire       clk_in,          // 100 MHz clock in
+	input  wire       clk_in,          // 100 MHz (10 ns) clock in
 	input  wire       PS2KeyboardData, // Keyboard Data Input
 	input  wire       PS2KeyboardClk,  // Keyboard Clock Input
 	input  wire       RxD,             // UART RX Port
-	output reg        TxD,             // UART TX Port
+	output wire       TxD,             // UART TX Port
 	output wire [7:0] seg,             // 7 Segment Display
 	output wire [3:0] an               // Anodes for the 4 different 7 Segments
    );
@@ -37,6 +37,30 @@ module main(
 		.value({8'd0, key}),  // display key from keyboard (key only 8 bits, so pad with 0s)
 		.seg(seg),
 		.an(an)
+	);
+	
+	// UART Receive
+	wire       byte_rxed;
+	wire [7:0] rx_byte;
+	uart_rx serial_rx(
+		.clk(clk_in),
+		.uart_data_in(RxD),
+		.byte_rxed(byte_rxed),
+		.rx_byte(rx_byte)
+	);
+	
+	// UART Transmit
+	reg       tx_wr;
+	reg [7:0] tx_data;
+	wire      tx_active;
+	wire      tx_done;
+	uart_tx serial_tx(
+		.clk(clk_in),
+		.tx_wr(tx_wr),
+		.tx_byte(tx_data),
+		.tx_active(tx_active),
+		.tx_data_out(TxD),
+		.tx_done(tx_done)
 	);
 
 endmodule
