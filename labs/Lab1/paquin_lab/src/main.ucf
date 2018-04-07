@@ -1,0 +1,29 @@
+Net "clk" LOC=V10;
+
+NET "button_reset" LOC = T5;
+NET "button_unhalt" LOC = T10;
+
+NET "seg7_led[0]" LOC = L14;
+NET "seg7_led[1]" LOC = N14;
+NET "seg7_led[2]" LOC = M14;
+NET "seg7_led[3]" LOC = U18;
+NET "seg7_led[4]" LOC = U17;
+NET "seg7_led[5]" LOC = T18;
+NET "seg7_led[6]" LOC = T17;
+
+NET "seg7_select[0]" LOC = N16;
+NET "seg7_select[1]" LOC = N15;
+NET "seg7_select[2]" LOC = P18;
+NET "seg7_select[3]" LOC = P17;
+
+NET "vga_r[0]" LOC = U7;
+NET "vga_r[1]" LOC = V7;
+NET "vga_r[2]" LOC = N7;
+NET "vga_g[0]" LOC = P8;
+NET "vga_g[1]" LOC = T6;
+NET "vga_g[2]" LOC = V6;
+NET "vga_b[0]" LOC = R7;
+NET "vga_b[1]" LOC = T7;
+
+NET "vga_hsync" LOC = N6;
+NET "vga_vsync" LOC = P7;

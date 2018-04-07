@@ -1,0 +1,184 @@
+$date
+	Mon Mar 12 18:25:40 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module main $end
+$scope module uut $end
+$var wire 16 ! a_data [15:0] $end
+$var wire 4 " alu_op [3:0] $end
+$var wire 16 # b_data [15:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % rst $end
+$var wire 16 & signed_a [15:0] $end
+$var wire 16 ' signed_b [15:0] $end
+$var reg 16 ( out [15:0] $end
+$upscope $end
+$upscope $end
+$scope module main $end
+$var reg 16 ) a [15:0] $end
+$upscope $end
+$scope module main $end
+$var reg 16 * b [15:0] $end
+$upscope $end
+$scope module main $end
+$var reg 4 + op [3:0] $end
+$upscope $end
+$scope module main $end
+$var wire 16 , out [15:0] $end
+$upscope $end
+$scope module main $end
+$var reg 1 $ clk $end
+$upscope $end
+$scope module main $end
+$var reg 1 % rst $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx ,
+b0 +
+b0 *
+b0 )
+bx (
+b0 '
+b0 &
+1%
+1$
+b0 #
+b0 "
+b0 !
+$end
+#1
+b0 (
+b0 ,
+#5
+0$
+#10
+b101 '
+b101 #
+b101 *
+b111 &
+b111 !
+b111 )
+1$
+0%
+#15
+0$
+#20
+b1 "
+b1 +
+1$
+#21
+b1100 (
+b1100 ,
+#25
+0$
+#30
+b10 "
+b10 +
+1$
+#31
+b10 (
+b10 ,
+#35
+0$
+#40
+b11 "
+b11 +
+1$
+#41
+b1000 (
+b1000 ,
+#45
+0$
+#50
+b100 "
+b100 +
+1$
+#51
+b10 (
+b10 ,
+#55
+0$
+#60
+b101 "
+b101 +
+1$
+#61
+b1 (
+b1 ,
+#65
+0$
+#70
+b111 '
+b111 #
+b111 *
+b101 &
+b101 !
+b101 )
+1$
+#71
+b0 (
+b0 ,
+#75
+0$
+#80
+b110 "
+b110 +
+1$
+#81
+b1100 (
+b1100 ,
+#85
+0$
+#90
+b101 '
+b101 #
+b101 *
+b111 &
+b111 !
+b111 )
+b111 "
+b111 +
+1$
+#91
+b10 (
+b10 ,
+#95
+0$
+#100
+b1000 "
+b1000 +
+1$
+#101
+b100011 (
+b100011 ,
+#105
+0$
+#110
+b1111111110110101 &
+b1111111110110101 !
+b1111111110110101 )
+b1001 "
+b1001 +
+1$
+#111
+b1111111111110001 (
+b1111111111110001 ,
+#115
+0$
+#120
+1$
+#125
+0$
+#130
+1$
+#135
+0$
+#140
+1$
