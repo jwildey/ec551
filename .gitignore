@@ -36,6 +36,8 @@
 
 **/ipcore_dir/*
 
+**/*_xdb/*
+
 **/*.projectmgr
 
 **/_ngo/*
