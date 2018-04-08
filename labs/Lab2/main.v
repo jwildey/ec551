@@ -30,8 +30,6 @@ module main(
 	);
 	
 	// 7 Segment Display Variables
-	reg [15:0] seg_disp = 16'd0;
-	
 	seg_display sev_seg_display (
 		.clk(clk_in),
 		.value({8'd0, key}),  // display key from keyboard (key only 8 bits, so pad with 0s)
