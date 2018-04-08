@@ -54,7 +54,7 @@ module uart_tx(
 				bit_idx <= 3'd0;
 				
 				// If we write enable is active
-				if (tx_wr <= 1'b1) begin
+				if (tx_wr == 1'b1) begin
 					tx_active <= 1'b1;
 					tx_data <= tx_byte;
 					state <= STATE_TX_START_BIT;
