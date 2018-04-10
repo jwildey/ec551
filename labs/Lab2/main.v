@@ -29,14 +29,6 @@ module main(
 		.key(key)
 	);
 	
-	// 7 Segment Display Variables
-	seg_display sev_seg_display (
-		.clk(clk_in),
-		.value({8'd0, key}),  // display key from keyboard (key only 8 bits, so pad with 0s)
-		.seg(seg),
-		.an(an)
-	);
-	
 	// UART Receive
 	wire       byte_rxed;
 	wire [7:0] rx_byte;
@@ -59,6 +51,14 @@ module main(
 		.tx_active(tx_active),
 		.tx_data_out(TxD),
 		.tx_done(tx_done)
+	);
+	
+	// 7 Segment Display Variables
+	seg_display sev_seg_display (
+		.clk(clk_in),
+		.value({byte_rxed, key}),  // upper byte UART Rx, lower byte keyboard key
+		.seg(seg),
+		.an(an)
 	);
 
 endmodule
