@@ -17,17 +17,21 @@ module main(
 	input  wire       RxD,             // UART RX Port
 	output wire       TxD,             // UART TX Port
 	output wire [7:0] seg,             // 7 Segment Display
-	output wire [3:0] an               // Anodes for the 4 different 7 Segments
+	output wire [3:0] an,              // Anodes for the 4 different 7 Segments
+	output wire [7:0] led              // 8 LEDs above switches
    );
 	
 	// Keyboard Variables
 	wire [7:0] key;
-	
+	wire       shift;
 	keyboard_controller keyboard (
 		.clk(PS2KeyboardClk),
 		.data(PS2KeyboardData),
-		.key(key)
+		.key(key),
+		.shift(shift)
 	);
+	
+	assign led = {7'd0, shift};
 	
 	// UART Receive
 	wire       byte_rxed;

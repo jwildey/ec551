@@ -14,15 +14,25 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module keyboard_controller(
-	input wire       clk,  // Clock from keyboard
-	input wire       data, // Data from keyboard
-	output reg [7:0] key   // Key pressed on keyboard
+	input  wire       clk,  // Clock from keyboard
+	input  wire       data, // Data from keyboard
+	output wire [7:0] key,  // Key pressed on keyboard
+	output reg        shift // Used to detect shift key
    );
 	
 	reg [7:0] data_curr; 
-	reg [7:0] data_pre; 
+	reg [7:0] data_pre;
+	reg [7:0] key_pre;
 	reg [3:0] b; 
-	reg flag; 
+	reg flag;
+	reg caps_lock;
+	
+	kb_code_ascii_convert convert (
+		.kb_code(key_pre),
+		.caps_lock(caps_lock),
+		.shift(shift),
+		.ascii(key)
+	);
  
 	initial 
 	begin 
@@ -30,7 +40,8 @@ module keyboard_controller(
 		flag<=1'b0; 
 		data_curr<=8'hf0; 
 		data_pre<=8'hf0; 
-		key<=8'hf0; 
+		key_pre<=8'hf0; 
+		shift<=1'b0;
 	end 
 	 
 	always @(negedge clk) //Activating at negative edge of clock from keyboard 
@@ -55,9 +66,15 @@ module keyboard_controller(
 	end 
 	 
 	always@(posedge flag) // Printing data obtained to led 
-	begin 
-		if(data_curr==8'hf0) key<=data_pre; 
-		else data_pre<=data_curr; 
+	begin
+		if (data_curr == 8'h12 || data_curr == 8'h59) begin
+			shift <= 1'b1;
+		end else if(data_curr==8'hf0) begin
+			key_pre<=data_pre;
+			if (shift == 1'b1) shift <= 1'b0;
+		end else begin
+			data_pre<=data_curr;
+		end
 	end
 
 endmodule
