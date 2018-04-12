@@ -31,10 +31,9 @@ module main(
 		.shift(shift)
 	);
 	
-	assign led = {7'd0, shift};
-	
 	// UART Receive
 	wire       byte_rxed;
+	reg  [7:0] rx_byte_pre;
 	wire [7:0] rx_byte;
 	uart_rx serial_rx(
 		.clk(clk_in),
@@ -44,6 +43,7 @@ module main(
 	);
 	
 	// UART Transmit
+	reg       tx_wr_pre;
 	reg       tx_wr;
 	reg [7:0] tx_data;
 	wire      tx_active;
@@ -60,9 +60,27 @@ module main(
 	// 7 Segment Display Variables
 	seg_display sev_seg_display (
 		.clk(clk_in),
-		.value({byte_rxed, key}),  // upper byte UART Rx, lower byte keyboard key
+		.value({rx_byte, key}),  // upper byte UART Rx, lower byte keyboard key
 		.seg(seg),
 		.an(an)
 	);
+	
+	always @(posedge clk_in) begin
+		if (tx_wr_pre) tx_wr <= 1'b0; // reset tx_wr
+		if (rx_byte_pre == 8'h0D) begin
+			if (!tx_active) begin
+				tx_data <= 8'h0A;
+				tx_wr <= 1'b1;
+				rx_byte_pre <= 8'h00;
+			end
+		end else if (byte_rxed)	begin
+			tx_data <= rx_byte;
+			tx_wr <= 1'b1;
+			rx_byte_pre <= rx_byte;
+		end
+		tx_wr_pre <= tx_wr;
+	end
+	
+	assign led = {4'd0, tx_wr_pre, tx_wr, byte_rxed, shift};
 
 endmodule

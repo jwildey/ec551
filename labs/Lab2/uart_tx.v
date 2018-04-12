@@ -53,7 +53,7 @@ module uart_tx(
 				clk_cnt <= 0; //reset counter
 				bit_idx <= 3'd0;
 				
-				// If we write enable is active
+				// If write enable is active
 				if (tx_wr == 1'b1) begin
 					tx_active <= 1'b1;
 					tx_data <= tx_byte;
